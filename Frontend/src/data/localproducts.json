@@ -1,0 +1,516 @@
+  
+  [
+    {
+      "id": 1,
+      "name": "Men's Cotton T-Shirt",
+      "description": "Soft and breathable cotton T-shirt for everyday wear.",
+      "price": 19,
+      "image":[
+        "https://images.unsplash.com/photo-1666358777552-e9da24998db8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1666358083629-b4bf1b59d6ad?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1666358086199-975d5538947c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1666358087708-d395db443f09?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
+      "category": "men",
+      "subcategory": "topwear",
+      "sizes": ["S", "M", "L", "XL"],
+      "date": "2025-03-10",
+      "bestseller": true
+    },
+    {
+      "id": 2,
+      "name": "Women's High-Waisted Jeans",
+      "description": "Stylish and comfortable high-rise denim jeans.",
+      "price": 39,
+      "image":[
+        "https://img.freepik.com/free-photo/lady-street-wear-sitting-putting-leg-rail_23-2147910812.jpg?t=st=1746958955~exp=1746962555~hmac=7770f4b8676965fbee4c5aca77be8df7e0b457c9ffeb02c62d589b0dcc621a66&w=900",
+        "https://img.freepik.com/free-photo/girl-holding-book_23-2147617723.jpg?t=st=1746958936~exp=1746962536~hmac=42be7c04f3a84b066b101b2ba501fb586145690f8396d649a1da0b508ca34d9d&w=1380",
+        "https://img.freepik.com/free-photo/spring-wardrobe-switch-top-view_23-2150264140.jpg?t=st=1746958990~exp=1746962590~hmac=49bf74128466c60527d5f54f0d3ad44b791a2bbfc6eaf02bcdd515ccd7ad4035&w=1380",
+        "https://img.freepik.com/free-photo/stylish-girl_1157-8261.jpg?t=st=1746959037~exp=1746962637~hmac=76c8f997d29939e8fa4c49e8437882283eee45b0d70cd76a713f0bea62686875&w=900"
+      ],
+      "category": "women",
+      "subcategory": "bottomwear",
+      "sizes": ["XS", "S", "M", "L"],
+      "date": "2025-01-18",
+      "bestseller": false
+    },
+    {
+      "id": 3,
+      "name": "Kid's Winter Jacket",
+      "description": "Warm padded jacket for chilly winter days.",
+      "price": 49,
+      "image":[
+        "https://images.unsplash.com/photo-1657270412559-94e5f5fe8a22?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1707816501340-60df66800f43?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1676131161020-ff8fbfc076bc?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1663099782693-c094a6279120?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fEtpZCdzJTIwV2ludGVyJTIwSmFja2V0JTIwNCUyMHNhbWUlMjBpbWFnZXN8ZW58MHwwfDB8fHww"
+      ],
+      "category": "kids",
+      "subcategory": "winterwear",
+      "sizes": ["3-4Y", "5-6Y", "7-8Y"],
+      "date": "2024-12-02",
+      "bestseller": true
+    },
+    {
+      "id": 4,
+      "name": "Men's Denim Jeans",
+      "description": "Slim fit jeans with a modern cut.",
+      "price": 45,
+      "image":[
+        "https://images.unsplash.com/photo-1637069585336-827b298fe84a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8RGVuaW0lMjBKZWFuc3xlbnwwfDB8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1612949677014-47e1623c993b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fERlbmltJTIwSmVhbnN8ZW58MHwwfDB8fHww",
+        "https://images.unsplash.com/photo-1589226849736-8d0e0c78e869?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fERlbmltJTIwSmVhbnN8ZW58MHwwfDB8fHww",
+        "https://images.unsplash.com/photo-1714143136385-c449be6760f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D"
+      ],
+      "category": "men",
+      "subcategory": "bottomwear",
+      "sizes": ["M", "L", "XL", "XXL"],
+      "date": "2025-02-22",
+      "bestseller": false
+    },
+    {
+      "id": 5,
+      "name": "Women's Woolen Sweater",
+      "description": "Cozy wool sweater in stylish colors.",
+      "price": 55,
+      "image":[
+        "https://plus.unsplash.com/premium_photo-1737302621445-030dadd92230?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1737370659011-3de25cbb6322?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1737302620598-adf96f9e81b4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D",
+        "https://plus.unsplash.com/premium_photo-1737370658985-cdd72f1c244d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D"
+      ],
+      "category": "women",
+      "subcategory": "winterwear",
+      "sizes": ["S", "M", "L"],
+      "date": "2024-11-15",
+      "bestseller": true
+    },
+    {
+      "id": 6,
+      "name": "Kid's Printed T-Shirt",
+      "description": "Fun and colorful T-shirt for kids.",
+      "price": 14,
+      "image":[
+        "https://images.unsplash.com/photo-1711934047742-44a49e7225b9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1711934047964-ec34fcad2991?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1711934049384-719550bbcf34?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D",
+        "https://images.unsplash.com/photo-1711934049315-69a728a2dd14?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D"
+      ],
+      "category": "kids",
+      "subcategory": "topwear",
+      "sizes": ["3-4Y", "5-6Y"],
+      "date": "2025-04-05",
+      "bestseller": false
+    },
+    {
+      "id": 7,
+      "name": "Men's Hoodie",
+      "description": "Casual hoodie with front pocket.",
+      "price": 35,
+      "image":[
+        "https://images.unsplash.com/photo-1579269896398-4deb6cbdc320?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1556172702-61ed56106d8c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8TWVuJ3MlMjBIb29kaWV8ZW58MHwwfDB8fHww",
+        "https://plus.unsplash.com/premium_photo-1677359393521-63be8ebf82a3?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fE1lbidzJTIwSG9vZGllfGVufDB8MHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1685328403755-de1d57e12e63?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fE1lbidzJTIwSG9vZGllfGVufDB8MHwwfHx8MA%3D%3D"
+      ],
+      "category": "men",
+      "subcategory": "winterwear",
+      "sizes": ["M", "L", "XL"],
+      "date": "2025-03-01",
+      "bestseller": true
+    },
+    {
+      "id": 8,
+      "name": "Women's Leggings",
+      "description": "Comfortable stretch leggings for workouts or casual wear.",
+      "price": 22,
+      "image":[
+        "https://plus.unsplash.com/premium_photo-1661491841585-0f2c3e40c447?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1661492410028-a784cf50518e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1661499862130-49bedae9c25f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1663054314605-641ab4976187?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDMyfHx8ZW58MHx8fHx8"
+      ],
+      "category": "women",
+      "subcategory": "bottomwear",
+      "sizes": ["XS", "S", "M"],
+      "date": "2025-02-14",
+      "bestseller": false
+    },
+    {
+      "id": 9,
+      "name": "Kid's Joggers",
+      "description": "Soft cotton joggers for active kids.",
+      "price": 18,
+      "image":[
+        "https://images.unsplash.com/photo-1742994034976-caca92e871da?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1742994057543-3cc5a1c05194?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
+        "https://images.unsplash.com/photo-1742994034976-caca92e871da?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEwfHx8ZW58MHx8fHx8",
+        "https://images.unsplash.com/photo-1742994012455-5efcb65360e8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D"
+      ],
+      "category": "kids",
+      "subcategory": "bottomwear",
+      "sizes": ["5-6Y", "7-8Y", "9-10Y"],
+      "date": "2025-01-09",
+      "bestseller": true
+    },
+    {
+      "id": 10,
+      "name": "Men's Formal Shirt",
+      "description": "Classic button-down formal shirt for business wear.",
+      "price": 29,
+      "image":[
+        "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8TWVuJ3MlMjBGb3JtYWwlMjBTaGlydHxlbnwwfDB8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1602810316498-ab67cf68c8e1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D",
+        "https://images.unsplash.com/photo-1603252110971-b8a57087be18?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8TWVuJ3MlMjBGb3JtYWwlMjBTaGlydHxlbnwwfDB8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1630411996618-02c53a95b141?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fE1lbidzJTIwRm9ybWFsJTIwU2hpcnR8ZW58MHwwfDB8fHww"
+      ],
+      "category": "men",
+      "subcategory": "topwear",
+      "sizes": ["M", "L", "XL"],
+      "date": "2025-03-21",
+      "bestseller": false
+    },
+    {
+      "id": 11,
+      "name": "Women's Crop Top",
+      "description": "Trendy crop top with bold prints.",
+      "price": 19,
+      "image":[
+        "https://images.unsplash.com/photo-1564257631407-4deb1f99d992?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1664475954460-d504c35664b2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y3JvcCUyMHRvcHxlbnwwfDB8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1533642361703-105b1aa2b3ed?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y3JvcCUyMHRvcHxlbnwwfDB8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1518519191681-ca17995a9aea?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y3JvcCUyMHRvcHxlbnwwfDB8MHx8fDA%3D"
+      ],
+      "category": "women",
+      "subcategory": "topwear",
+      "sizes": ["XS", "S", "M"],
+      "date": "2025-04-02",
+      "bestseller": true
+    },
+    {
+      "id": 12,
+      "name": "Kid's Sweater",
+      "description": "Soft woolen sweater to keep warm during winters.",
+      "price": 25,
+      "image":[
+        "https://plus.unsplash.com/premium_photo-1697183203887-75e88b8df287?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8S2lkJ3MlMjBTd2VhdGVyfGVufDB8MHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1745636624898-b54d7ed57c17?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fEtpZCdzJTIwU3dlYXRlcnxlbnwwfDB8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1446071712646-f049f6f30f93?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8S2lkJ3MlMjBTd2VhdGVyfGVufDB8MHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1646681599060-18470e6f5eb9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fEtpZCdzJTIwU3dlYXRlcnxlbnwwfDB8MHx8fDA%3D"
+      ],
+      "category": "kids",
+      "subcategory": "winterwear",
+      "sizes": ["3-4Y", "5-6Y", "7-8Y"],
+      "date": "2024-10-25",
+      "bestseller": false
+    },
+    {
+      "id": 13,
+      "name": "Men's Chinos",
+      "description": "Versatile chinos for casual and formal wear.",
+      "price": 40,
+      "image":[
+        "https://img.freepik.com/free-photo/collection-beige-tone-colored-pants_23-2150773430.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740",
+        "https://img.freepik.com/free-photo/light-brown-beige-pants-indoors-still-life_23-2150756260.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740",
+        "https://img.freepik.com/free-psd/fashionable-pants-isolated_23-2151336732.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740",
+        "https://img.freepik.com/free-photo/view-beige-tone-colored-pants_23-2150773391.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740"
+      ],
+      "category": "men",
+      "subcategory": "bottomwear",
+      "sizes": ["M", "L", "XL"],
+      "date": "2025-01-29",
+      "bestseller": true
+    },
+    {
+      "id": 14,
+      "name": "Women's Denim Jacket",
+      "description": "Classic denim jacket with a modern fit.",
+      "price": 59,
+      "image":[
+        "https://img.freepik.com/free-photo/woman-model-demonstrating-winter-cloths_1303-16967.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740",
+        "https://img.freepik.com/free-photo/woman-model-demonstrating-winter-cloths_1303-16950.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740",
+        "https://img.freepik.com/free-photo/woman-model-demonstrating-winter-cloths_1303-16968.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740",
+        "https://img.freepik.com/free-photo/woman-model-demonstrating-winter-cloths_1303-16965.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740"
+      ],
+      "category": "women",
+      "subcategory": "winterwear",
+      "sizes": ["S", "M", "L"],
+      "date": "2025-02-11",
+      "bestseller": false
+    },
+    {
+      "id": 15,
+      "name": "Kid's Leggings",
+      "description": "Comfortable leggings for school or play.",
+      "price": 12,
+      "image":[
+        "https://img.freepik.com/free-photo/little-girl-black-sportswear-is-engaged-gymnastics_1157-31626.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740",
+        "https://img.freepik.com/free-photo/side-view-mother-daughter-taking-selfie-yoga-mat_23-2148492508.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740",       
+        "https://img.freepik.com/free-photo/children-sport_23-2148108556.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740",
+        "https://img.freepik.com/free-photo/high-angle-mom-girl-resting_23-2148503282.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740"
+      ],
+      "category": "kids",
+      "subcategory": "bottomwear",
+      "sizes": ["3-4Y", "5-6Y"],
+      "date": "2025-03-07",
+      "bestseller": true
+    },
+    {
+      "id": 16,
+      "name": "Men's Bomber Jacket",
+      "description": "Trendy bomber jacket with a sleek finish.",
+      "price": 69,
+      "image":[
+        "https://img.freepik.com/free-photo/still-life-rendering-jackets-display_23-2149745028.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740",
+        "https://img.freepik.com/free-photo/still-life-rendering-jackets-display_23-2149745030.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740",
+        "https://img.freepik.com/free-photo/still-life-rendering-jackets-display_23-2149745029.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740",
+        "https://img.freepik.com/free-photo/still-life-rendering-jackets-display_23-2149745042.jpg?t=st=1746963172~exp=1746966772~hmac=204e96e69aa679cab9ba737611b3520df07e233b6836eb40b0316694ed8deeb3&w=900"
+      ],
+      "category": "men",
+      "subcategory": "winterwear",
+      "sizes": ["L", "XL", "XXL"],
+      "date": "2025-01-05",
+      "bestseller": false
+    },
+    {
+      "id": 17,
+      "name": "Women's Blouse",
+      "description": "Elegant blouse suitable for work or evening wear.",
+      "price": 34,
+      "image":[
+        "https://img.freepik.com/free-photo/trendy-top-design-mockup-presented-wooden-hanger_460848-13985.jpg?t=st=1746963252~exp=1746966852~hmac=5c9f38e52c632dcc029016b73c475412f614744d6b9e00ab13086606695ac505&w=900",
+        "https://img.freepik.com/free-photo/trendy-top-design-mockup-presented-wooden-hanger_460848-14022.jpg?t=st=1746963287~exp=1746966887~hmac=e7f59f0c6746ed0758286a10a36694477cb2e3102a87172e3c7b9dc184d354c8&w=740",
+        "https://img.freepik.com/free-photo/beautiful-young-female-blouse-looking-sensible_176474-24320.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740",
+        "https://img.freepik.com/free-photo/beautiful-young-woman-wearing-arabic-ethnic-costume-foreign-culture_482257-18699.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740"
+      ],
+      "category": "women",
+      "subcategory": "topwear",
+      "sizes": ["S", "M", "L"],
+      "date": "2025-02-27",
+      "bestseller": true
+    },
+    {
+      "id": 18,
+      "name": "Kid's Hoodie",
+      "description": "Colorful hoodie with kangaroo pockets.",
+      "price": 22,
+      "image":[
+        "https://img.freepik.com/free-photo/cute-little-guy-walking-park-with-flower_23-2148260741.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740",
+        "https://img.freepik.com/free-photo/young-girl_23-2147814341.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740",
+        "https://img.freepik.com/free-photo/front-view-modern-boy-with-copy-space_23-2148423102.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740",
+        "https://img.freepik.com/free-photo/front-view-modern-boy-with-copy-space_23-2148423123.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740"
+      ],
+      "category": "kids",
+      "subcategory": "winterwear",
+      "sizes": ["5-6Y", "7-8Y"],
+      "date": "2025-01-30",
+      "bestseller": false
+    },
+    {
+      "id": 19,
+      "name": "Men's Polo T-Shirt",
+      "description": "Smart casual polo shirt in a soft cotton blend.",
+      "price": 27,
+      "image":[
+        "https://img.freepik.com/free-photo/young-pleased-man-black-shirt-with-optical-glasses-pretends-hold-something-hand-puts-hand-waist-isolated-pink-wall_141793-35414.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740",
+        "https://img.freepik.com/free-photo/young-annoyed-man-black-shirt-with-optical-glasses-looks-side-isolated-pink-wall_141793-35064.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740",
+        "https://img.freepik.com/free-photo/young-annoyed-man-black-shirt-with-optical-glasses-purses-his-lips-points-up-isolated-pink-wall_141793-35066.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740",
+        "https://img.freepik.com/free-photo/young-smiling-man-black-shirt-with-optical-glasses-looks-isolated-pink-wall_141793-35466.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740"
+      ],
+      "category": "men",
+      "subcategory": "topwear",
+      "sizes": ["M", "L", "XL"],
+      "date": "2025-04-10",
+      "bestseller": true
+    },
+    {
+      "id": 20,
+      "name": "Women's Flared Skirt",
+      "description": "Stylish flared skirt perfect for summer.",
+      "price": 33,
+      "image":[
+        "https://img.freepik.com/free-vector/blue-vintage-skirt-vector-remix-from-artwork-by-ann-gene-buckley_53876-116285.jpg?t=st=1746963683~exp=1746967283~hmac=0a251e931b64769167d78ea4e0bc67347d75496b92779906c9c4a63bf18dc313&w=900",
+        "https://img.freepik.com/free-photo/elegant-lady-walking-alone-street_158595-2619.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740",
+        "https://img.freepik.com/free-photo/romantic-woman-retro-clothes_158595-2601.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740",
+        "https://img.freepik.com/free-photo/pretty-indian-girl-black-saree-dress-leather-jacket-posed-outdoor-autumn-street_627829-2061.jpg?ga=GA1.1.1689305586.1715376814&semt=ais_hybrid&w=740"
+      ],
+      "category": "women",
+      "subcategory": "bottomwear",
+      "sizes": ["XS", "S", "M", "L"],
+      "date": "2025-04-01",
+      "bestseller": false
+    },
+    {
+      "id": 21,
+      "name": "Kid's Denim Shorts",
+      "description": "Classic blue denim shorts for kids.",
+      "price": 16,
+       "image":[
+        "https://images.unsplash.com/photo-1684174625521-e5da42ea5711?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1720335567988-647c7b829ef2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEtpZHMlMjBEZW5pbSUyMFNob3J0cyUyMGltYWdlc3xlbnwwfDB8MHx8fDA%3D",
+        "https://plus.unsplash.com/premium_photo-1723780938162-efebb13b30cb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8S2lkcyUyMERlbmltJTIwU2hvcnRzJTIwaW1hZ2VzfGVufDB8MHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1666320605534-1bf78ace3761?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8S2lkcyUyMERlbmltJTIwU2hvcnRzJTIwaW1hZ2VzfGVufDB8MHwwfHx8MA%3D%3D"
+      ],      "category": "kids",
+      "subcategory": "bottomwear",
+      "sizes": ["5-6Y", "7-8Y"],
+      "date": "2025-03-25",
+      "bestseller": true
+    },
+    {
+      "id": 22,
+      "name": "Men's Thermal Wear",
+      "description": "Warm thermal wear set for winter layering.",
+      "price": 42,
+       "image":[
+        "https://images.unsplash.com/photo-1648473055769-de7ec88bf483?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fE1lbidzJTIwVGhlcm1hbCUyMFdlYXJ8ZW58MHwwfDB8fHww",
+        "https://images.unsplash.com/photo-1706027369229-8537ba8055eb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fE1lbidzJTIwVGhlcm1hbCUyMFdlYXJ8ZW58MHwwfDB8fHww",
+        "https://images.unsplash.com/photo-1601027847853-ea31bd3d5787?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fE1lbidzJTIwVGhlcm1hbCUyMFdlYXJ8ZW58MHwwfDB8fHww",
+        "https://images.unsplash.com/photo-1572371179162-9c0141483610?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fE1lbidzJTIwVGhlcm1hbCUyMFdlYXJ8ZW58MHwwfDB8fHww"
+      ],
+      "category": "men",
+      "subcategory": "winterwear",
+      "sizes": ["M", "L", "XL"],
+      "date": "2024-12-10",
+      "bestseller": false
+    },
+    {
+      "id": 23,
+      "name": "Women's Casual Top",
+      "description": "Lightweight top with floral patterns.",
+      "price": 28,
+       "image":[
+        "https://images.unsplash.com/photo-1593380090147-a2192b72a9ae?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8V29tZW4ncyUyMENhc3VhbCUyMFRvcHxlbnwwfDB8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1578093517307-6de9064df325?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fFdvbWVuJ3MlMjBDYXN1YWwlMjBUb3B8ZW58MHwwfDB8fHww",
+        "https://plus.unsplash.com/premium_photo-1691367279262-5c1b06a25783?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fFdvbWVuJ3MlMjBDYXN1YWwlMjBUb3B8ZW58MHwwfDB8fHww",
+        "https://plus.unsplash.com/premium_photo-1664546293779-aa61c12975de?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8V29tZW4ncyUyMENhc3VhbCUyMFRvcHxlbnwwfDB8MHx8fDA%3D"
+      ],
+      "category": "women",
+      "subcategory": "topwear",
+      "sizes": ["S", "M", "L"],
+      "date": "2025-02-05",
+      "bestseller": true
+    },
+    {
+      "id": 24,
+      "name": "Kid's Long Sleeve Tee",
+      "description": "Soft full sleeve cotton tee for kids.",
+      "price": 13,
+       "image":[
+        "https://images.unsplash.com/photo-1653071125625-0a5a7501708b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1653071125308-587dbebf9f76?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fEtpZCdzJTIwTG9uZyUyMFNsZWV2ZSUyMFRlZXxlbnwwfDB8MHx8fDA%3D",
+        "https://plus.unsplash.com/premium_photo-1723802463463-519a55440c14?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fEtpZCdzJTIwTG9uZyUyMFNsZWV2ZSUyMFRlZXxlbnwwfDB8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1618604869427-337a3b689e57?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fEtpZCdzJTIwTG9uZyUyMFNsZWV2ZSUyMFRlZXxlbnwwfDB8MHx8fDA%3D"
+      ],     
+      "category": "kids",
+      "subcategory": "topwear",
+      "sizes": ["3-4Y", "5-6Y"],
+      "date": "2025-03-12",
+      "bestseller": false
+    },
+    {
+      "id": 25,
+      "name": "Men's Sweatpants",
+      "description": "Relaxed fit sweatpants with elastic waistband.",
+      "price": 31,
+       "image":[
+        "https://images.unsplash.com/photo-1552903905-5e39e774e375?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWVuJ3MlMjBTd2VhdHBhbnRzfGVufDB8MHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1583459873689-e3e76d336cb9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fE1lbidzJTIwU3dlYXRwYW50c3xlbnwwfDB8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1588748570590-a8a5646c5c06?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fE1lbidzJTIwU3dlYXRwYW50c3xlbnwwfDB8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1579758629938-03607ccdbaba?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDQ4fHx8ZW58MHx8fHx8"
+      ],
+      "category": "men",
+      "subcategory": "bottomwear",
+      "sizes": ["M", "L", "XL", "XXL"],
+      "date": "2025-04-15",
+      "bestseller": true
+    },
+    {
+      "id": 26,
+      "name": "Women's Parka Coat",
+      "description": "Insulated parka coat with faux fur hood.",
+      "price": 79,
+       "image":[
+        "https://plus.unsplash.com/premium_photo-1731267168199-0febf3a676fb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8V29tZW4ncyUyMFBhcmthJTIwQ29hdHxlbnwwfDB8MHx8fDA%3D",
+        "https://plus.unsplash.com/premium_photo-1697749436252-57b3d66c0988?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fFdvbWVuJ3MlMjBQYXJrYSUyMENvYXR8ZW58MHwwfDB8fHww",
+        "https://images.unsplash.com/photo-1666513241353-14a198830381?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8V29tZW4ncyUyMFBhcmthJTIwQ29hdHxlbnwwfDB8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1557422610-4d9126f449cf?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fFdvbWVuJ3MlMjBQYXJrYSUyMENvYXR8ZW58MHwwfDB8fHww"
+      ],    "category": "women",
+      "subcategory": "winterwear",
+      "sizes": ["S", "M", "L"],
+      "date": "2024-11-30",
+      "bestseller": true
+    },
+    {
+      "id": 27,
+      "name": "Kid's Sweatshirt",
+      "description": "Cozy sweatshirt with playful graphic print.",
+      "price": 20,
+       "image":[
+        "https://images.unsplash.com/photo-1667846542926-b64a03398b00?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8S2lkJ3MlMjBTd2VhdHNoaXJ0fGVufDB8MHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1633781935348-80f0b213179e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8S2lkJ3MlMjBTd2VhdHNoaXJ0fGVufDB8MHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1545312981-de7f4d7cb816?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEtpZCdzJTIwU3dlYXRzaGlydHxlbnwwfDB8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1661419202009-f0683cf75e03?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fEtpZCdzJTIwU3dlYXRzaGlydHxlbnwwfDB8MHx8fDA%3D"
+      ],
+      "category": "kids",
+      "subcategory": "topwear",
+      "sizes": ["3-4Y", "5-6Y", "7-8Y"],
+      "date": "2025-02-16",
+      "bestseller": false
+    },
+    {
+      "id": 28,
+      "name": "Men's Vest Jacket",
+      "description": "Light padded vest for transitional weather.",
+      "price": 38,
+       "image":[
+        "https://images.unsplash.com/photo-1515736076039-a3ca66043b27?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fE1lbidzJTIwVmVzdCUyMEphY2tldHxlbnwwfDB8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1724856604247-0de2c43b6491?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TWVuJ3MlMjBWZXN0JTIwSmFja2V0fGVufDB8MHwwfHx8MA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1739699781720-29ec3e8e0db2?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8TWVuJ3MlMjBWZXN0JTIwSmFja2V0fGVufDB8MHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1643226355493-88c7ad283155?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8TWVuJ3MlMjBWZXN0JTIwSmFja2V0fGVufDB8MHwwfHx8MA%3D%3D"
+      ], 
+      "category": "men",
+      "subcategory": "winterwear",
+      "sizes": ["M", "L", "XL"],
+      "date": "2025-01-12",
+      "bestseller": true
+    },
+    {
+      "id": 29,
+      "name": "Women's Lounge Pants",
+      "description": "Soft and flowy lounge pants for relaxed days.",
+      "price": 30,
+       "image":[
+        "https://plus.unsplash.com/premium_photo-1664532297350-dda09fa5192f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8V29tZW4ncyUyMExvdW5nZSUyMFBhbnRzfGVufDB8MHwwfHx8MA%3D%3D",
+        "https://images.unsplash.com/photo-1612197315327-3e8ec02bee77?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fFdvbWVuJ3MlMjBMb3VuZ2UlMjBQYW50c3xlbnwwfDB8MHx8fDA%3D",
+        "https://plus.unsplash.com/premium_photo-1664478222919-1a9894e5e017?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fFdvbWVuJ3MlMjBMb3VuZ2UlMjBQYW50c3xlbnwwfDB8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1621395369775-b03685d7a216?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fFdvbWVuJ3MlMjBMb3VuZ2UlMjBQYW50c3xlbnwwfDB8MHx8fDA%3D"
+      ],
+      "category": "women",
+      "subcategory": "bottomwear",
+      "sizes": ["XS", "S", "M", "L"],
+      "date": "2025-03-17",
+      "bestseller": false
+    },
+    {
+      "id": 30,
+      "name": "Kid's Snow Jacket",
+      "description": "Durable snow jacket for winter fun.",
+      "price": 59,
+      "image":[
+        "https://images.unsplash.com/photo-1606305111619-94206f4e449d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fEtpZCdzJTIwU25vdyUyMEphY2tldHxlbnwwfDB8MHx8fDA%3D",
+        "https://images.unsplash.com/photo-1677249982817-26623dcc7671?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEtpZCdzJTIwU25vdyUyMEphY2tldHxlbnwwfDB8MHx8fDA%3D",
+        "https://plus.unsplash.com/premium_photo-1701208039438-9c6b0dc923f6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fEtpZCdzJTIwU25vdyUyMEphY2tldHxlbnwwfDB8MHx8fDA%3D",
+        "https://plus.unsplash.com/premium_photo-1736703442852-65d6ff685d9a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8S2lkJ3MlMjBTbm93JTIwSmFja2V0fGVufDB8MHwwfHx8MA%3D%3D"
+      ],
+      "category": "kids",
+      "subcategory": "winterwear",
+      "sizes": ["5-6Y", "7-8Y", "9-10Y"],
+      "date": "2024-12-20",
+      "bestseller": true
+    }
+    ]
+    
+      
+  
+  
+  
