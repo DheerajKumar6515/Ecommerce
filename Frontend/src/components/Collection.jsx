@@ -140,7 +140,7 @@ function Collection() {
           <Link to={`/product/${items._id}`} key={id}> 
              <div   className='card h-64 xl:h-56 border border-gray-300 rounded-xs md:h-80 overflow-hidden'>
               <div className=' h-50 md:h-64 xl:h-44 overflow-hidden'>
-                <img className='w-full h-full object-cover'
+                <img className='w-full h-full object-cover transform transition-transform duration-300 hover:scale-110'
                  src={`${import.meta.env.VITE_BACKEND_URL}/uploads/${items.image[0]}`} alt="" />
               </div>
               <p className='text-xs px-1 py-1 md:text-base md:px-1 xl:text-xs xl:px-1'>{items.name}</p>

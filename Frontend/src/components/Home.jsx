@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Home() {
   
    const {products,currency}=useContext(Shopcontext);
-   const [Bestseller,SetBestseller]=useState([])
+  // const [Bestseller,SetBestseller]=useState([])
    
   const handlesubscribe=(e)=>{
        e.preventDefault();
@@ -21,7 +21,7 @@ function Home() {
          </div>
 
          <div className='w-full h-64 md:w-1/2 md:h-full rounded-xs overflow-hidden'>
-          <img className=' w-full bg-center object-cover' src="https://images.unsplash.com/photo-1707302342647-fe55db824d85?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+          <img className='w-full bg-center object-cover' src="https://images.unsplash.com/photo-1707302342647-fe55db824d85?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
           </div>
 
       </div>
@@ -38,7 +38,7 @@ function Home() {
               <Link to={`/product/${item._id}`} key={id}>
                 <div  className='card h-64 xl:h-56 border border-gray-300 rounded-xs md:h-80 overflow-hidden'>
                 <div className=' h-48 md:h-64 xl:h-44 overflow-hidden'>
-                  <img className='w-full h-full object-cover' src={`${import.meta.env.VITE_BACKEND_URL}/uploads/${item.image[0]}`} alt="" />
+                  <img className='w-full h-full object-cover transform transition-transform duration-300 hover:scale-110' src={`${import.meta.env.VITE_BACKEND_URL}/uploads/${item.image[0]}`} alt="" />
                   </div>
                   <p className='text-xs px-1 py-1 md:text-base md:px-1 xl:text-xs xl:px-1'>{item.name}</p>
                   <p className='text-xs px-1 font-medium md:text-base md:px-1 xl:text-[13px]'>{currency}{item.price}</p>
@@ -62,7 +62,7 @@ function Home() {
                 <Link to={`/product/${item.id}`} key={item._id}>
                    <div  className='card h-64 xl:h-56 border border-gray-300 rounded-xs md:h-80 overflow-hidden'>
                    <div className=' h-48 md:h-64 xl:h-44 overflow-hidden'>
-                     <img className='w-full ' src={`${import.meta.env.VITE_BACKEND_URL}/uploads/${item.image[0]}`} alt="" />
+                     <img className='w-full h-full object-cover transform transition-transform duration-300 hover:scale-110' src={`${import.meta.env.VITE_BACKEND_URL}/uploads/${item.image[0]}`} alt="" />
                      </div>
                      <p className='text-xs px-1 py-1 md:text-base md:px-1 xl:text-xs xl:px-1'>{item.name}</p>
                      <p className='text-xs px-1 font-medium md:text-base md:px-1 xl:text-[13px]'>{currency}{item.price}</p>

@@ -119,7 +119,8 @@ function ShopContextProvider({children}) {
             setCartitem(res.data.cartData);
          }
       } catch (error) {
-         toast.error(error.message);
+         //toast.error(error.message);
+         //console.log(error.message)
       }
     }
 

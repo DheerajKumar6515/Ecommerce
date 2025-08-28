@@ -49,7 +49,7 @@ function Navbar() {
              <div className='group relative'>
                 <Link to='/login' className=' md:text-3xl xl:text-lg cursor-pointer text-black/60'> <i className="ri-account-circle-line"></i> </Link>
                  
-                 {token || localStorage.getItem('token') && 
+                 {localStorage.getItem('token') && 
                 <div className='group-hover:block hidden absolute dropdown-menu -right-8 pt-4'>
                    <div className='flex flex-col gap-2 w-36 py-3 px-5 bg-slate-100 text-gray-500'>
                       <p className='cursor-pointer hover:text-black'>My Profile</p>

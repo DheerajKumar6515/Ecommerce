@@ -7,6 +7,7 @@ const userauth =require('../middleware/userauth');
 router.post('/add',userauth,cartController.addcartItem)
 
 router.get('/cartdata',userauth,cartController.getUsercart)
+//router.get('/cartdata',cartController.getUsercart)
 
 router.post('/update',userauth,cartController.Updatecart)
 

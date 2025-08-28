@@ -17,7 +17,7 @@ connectTodb();
 
 //middleware
 app.use(cors({
-   // origin:process.env.localpath,
+   // origin:process.env.port,
    // credentials:true
 }))
 

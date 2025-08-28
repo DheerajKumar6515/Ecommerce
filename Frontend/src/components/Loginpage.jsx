@@ -14,17 +14,21 @@ function Loginpage() {
     const handleSubmit=async(e)=>{
          e.preventDefault()
          try {
-            const res =await axios.post(`${import.meta.env.VITE_BACKEND_URL}/api/users/signIn`,{email,password});
+            const res = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/api/users/signIn`,{email,password});
              if(res.data.success){
                  navigate('/home');
                  setToken(res.data.token);
                  localStorage.setItem('token',res.data.token);
                  toast.success('Login successful.')
+                }else{
+                     toast.error('Invalid Login Details.')
                 }
          } catch (error) {
-            toast.error(error.message);
+            console.log(error.message)
+            //toast.error(error.message);
          }
     }
+
 
     const handlesubscribe=()=>{}
     
@@ -45,7 +49,7 @@ function Loginpage() {
 
                 <input className={`border outline-0 border-gray-500 w-64 py-2 px-2 text-sm mx-auto rounded-sm md:w-[27rem] md:py-4 md:px-2.5 md:text-xl md:mb-4 lg:w-[32rem] lg:py-5 lg:text-xl xl:w-80 xl:text-sm xl:py-2 xl:px-2 xl:mb-2`} type="email" value={email} onChange={(e)=>setEmail(e.target.value)} placeholder='Email' required />
 
-                <input className={`border outline-0 border-gray-500 w-64 py-2 px-2 text-sm mx-auto rounded-sm md:w-[27rem] md:py-4 md:px-2.5 md:text-xl lg:w-[32rem] lg:py-5 lg:text-xl xl:w-80 xl:py-2 xl:text-sm xl:px-2`} type="password" value={password} onChange={(e)=>setPassword(e.target.value)} placeholder='Password' required />
+                <input className={`border outline-0 border-gray-500 w-64 py-2 px-2 text-sm mx-auto rounded-sm md:w-[27rem] md:py-4 md:px-2.5 md:text-xl lg:w-[32rem] lg:py-5 lg:text-xl xl:w-80 xl:py-2 xl:text-sm xl:px-2`} type="password" value={password} onChange={(e)=>setPassword(e.target.value)} placeholder='Password must be 8 char...' required />
                  
                  <div className={` mt-1 text-xs flex items-center justify-between gap-14 md:gap-32 md:py-1.5 lg:gap-42 xl:gap-[80px] xl:mt-0`}>
                     <a className={`cursor-pointer hover:text-black text-gray-600 md:text-lg lg:text-xl xl:text-sm`} href="#">Forget your password?</a>

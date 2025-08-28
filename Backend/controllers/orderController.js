@@ -1,15 +1,15 @@
 const orderModel = require('../models/orders');
 const UserModel = require('../models/user');
 const Stripe =require('stripe');
-const Razerpay = require('razorpay');
+//const Razerpay = require('razorpay');
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
-const razerpayInstance = new Razerpay({
-    key_id:process.env.RAZERPAY_ID,
-    oauthToken:"ACCESS_TOKEN",
-    key_secret:process.env.RAZERPAY_SECRET_KEY,
-})
+// const razerpayInstance = new Razerpay({
+//     key_id:process.env.RAZERPAY_ID,
+//     oauthToken:"ACCESS_TOKEN",
+//     key_secret:process.env.RAZERPAY_SECRET_KEY,
+// })
 
 const currency='inr';
 const deliveryCharge=10;

@@ -182,7 +182,7 @@ function Productpage() {
           <Link to={`/product/${item._id}`} key={id}>
              <div  className='card px-1 h-64 xl:h-56 border border-gray-300 rounded-xs md:h-80 overflow-hidden'>
              <div className=' h-48 md:h-64 xl:h-44 overflow-hidden'>
-               <img className='w-full h-full object-cover xl:h-full xl:object-fill ' src={`${import.meta.env.VITE_BACKEND_URL}/uploads/${item.image[0]}`} alt="" />
+               <img className='w-full h-full object-cover xl:h-full xl:object-fill transform transition-transform duration-300 hover:scale-110' src={`${import.meta.env.VITE_BACKEND_URL}/uploads/${item.image[0]}`} alt="" />
              </div>
              <p className='text-xs py-1 md:text-base md:px-1 xl:text-xs xl:px-1'>{item.name}</p>
              <p className='text-xs font-medium md:text-base md:px-1 xl:text-[13px]'>{currency}{item.price}</p>
