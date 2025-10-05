@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 
-// DB_URL = mongodb://localhost:27017/EcommerceData
 
 const connectTodb = async()=>{
     try {
