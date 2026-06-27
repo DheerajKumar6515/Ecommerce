@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 
-const DB_URL1=https://ecommerce-frontend-7p13.onrender.com;
+const DB_URL1="https://ecommerce-backend-9i9x.onrender.com";
 const connectTodb = async()=>{
     try {
-        await mongoose.connect(`${process.env.DB_URL1}`).then(()=>{
+        await mongoose.connect(`${process.env.DB_URL}`).then(()=>{
             console.log('connection successfully👍');          
         })
     } catch (e) {
